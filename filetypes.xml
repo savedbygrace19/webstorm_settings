@@ -1,0 +1,10 @@
+<application>
+  <component name="FileTypeManager" version="16">
+    <extensionMap>
+      <mapping pattern="Gemfile" type="PLAIN_TEXT" />
+      <mapping pattern="README" type="PLAIN_TEXT" />
+      <mapping pattern=".nvmrc" type="PLAIN_TEXT" />
+      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
+    </extensionMap>
+  </component>
+</application>

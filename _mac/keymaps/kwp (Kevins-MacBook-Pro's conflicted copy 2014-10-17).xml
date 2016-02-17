@@ -1,0 +1,150 @@
+<keymap version="1" name="kwp" parent="$default">
+  <action id="$Copy">
+    <keyboard-shortcut first-keystroke="meta c" />
+  </action>
+  <action id="$Cut">
+    <keyboard-shortcut first-keystroke="meta x" />
+  </action>
+  <action id="$Paste">
+    <keyboard-shortcut first-keystroke="meta v" />
+    <keyboard-shortcut first-keystroke="ctrl y" />
+  </action>
+  <action id="$SelectAll">
+    <keyboard-shortcut first-keystroke="meta a" />
+  </action>
+  <action id="$Undo">
+    <keyboard-shortcut first-keystroke="meta z" />
+  </action>
+  <action id="CheckinProject" />
+  <action id="CopyPaths">
+    <keyboard-shortcut first-keystroke="shift meta c" />
+  </action>
+  <action id="CopyReference">
+    <keyboard-shortcut first-keystroke="shift meta alt c" />
+  </action>
+  <action id="Diff.SelectedChange" />
+  <action id="Editor Copy">
+    <keyboard-shortcut first-keystroke="meta c" />
+  </action>
+  <action id="Editor Cut">
+    <keyboard-shortcut first-keystroke="meta x" />
+  </action>
+  <action id="Editor Paste">
+    <keyboard-shortcut first-keystroke="meta v" />
+    <keyboard-shortcut first-keystroke="ctrl y" />
+  </action>
+  <action id="Editor SelectAll">
+    <keyboard-shortcut first-keystroke="meta a" />
+  </action>
+  <action id="Editor Undo">
+    <keyboard-shortcut first-keystroke="meta z" />
+  </action>
+  <action id="EditorCutLineEnd">
+    <keyboard-shortcut first-keystroke="ctrl k" />
+  </action>
+  <action id="EditorDecreaseFontSize">
+    <keyboard-shortcut first-keystroke="ctrl comma" second-keystroke="minus" />
+  </action>
+  <action id="EditorDeleteLine" />
+  <action id="EditorDown">
+    <keyboard-shortcut first-keystroke="down" />
+    <keyboard-shortcut first-keystroke="ctrl n" />
+  </action>
+  <action id="EditorDownWithSelection">
+    <keyboard-shortcut first-keystroke="shift down" />
+    <keyboard-shortcut first-keystroke="shift ctrl n" />
+  </action>
+  <action id="EditorIncreaseFontSize">
+    <keyboard-shortcut first-keystroke="ctrl comma" second-keystroke="shift equals" />
+  </action>
+  <action id="EditorLeft">
+    <keyboard-shortcut first-keystroke="left" />
+    <keyboard-shortcut first-keystroke="ctrl b" />
+  </action>
+  <action id="EditorLeftWithSelection">
+    <keyboard-shortcut first-keystroke="shift left" />
+    <keyboard-shortcut first-keystroke="shift ctrl b" />
+  </action>
+  <action id="EditorLineEnd">
+    <keyboard-shortcut first-keystroke="end" />
+    <keyboard-shortcut first-keystroke="ctrl e" />
+  </action>
+  <action id="EditorLineEndWithSelection">
+    <keyboard-shortcut first-keystroke="shift end" />
+    <keyboard-shortcut first-keystroke="shift ctrl e" />
+  </action>
+  <action id="EditorLineStart">
+    <keyboard-shortcut first-keystroke="home" />
+    <keyboard-shortcut first-keystroke="ctrl a" />
+  </action>
+  <action id="EditorLineStartWithSelection">
+    <keyboard-shortcut first-keystroke="shift home" />
+    <keyboard-shortcut first-keystroke="shift ctrl a" />
+  </action>
+  <action id="EditorResetFontSize">
+    <keyboard-shortcut first-keystroke="ctrl comma" second-keystroke="equals" />
+  </action>
+  <action id="EditorRight">
+    <keyboard-shortcut first-keystroke="right" />
+    <keyboard-shortcut first-keystroke="ctrl f" />
+  </action>
+  <action id="EditorRightWithSelection">
+    <keyboard-shortcut first-keystroke="shift right" />
+    <keyboard-shortcut first-keystroke="shift ctrl f" />
+  </action>
+  <action id="EditorUp">
+    <keyboard-shortcut first-keystroke="up" />
+    <keyboard-shortcut first-keystroke="ctrl p" />
+  </action>
+  <action id="EditorUpWithSelection">
+    <keyboard-shortcut first-keystroke="shift up" />
+    <keyboard-shortcut first-keystroke="shift ctrl p" />
+  </action>
+  <action id="FileChooser.NewFolder" />
+  <action id="FileChooser.TogglePathShowing" />
+  <action id="Find">
+    <keyboard-shortcut first-keystroke="alt f3" />
+  </action>
+  <action id="FindInPath" />
+  <action id="GotoAction" />
+  <action id="GotoClass" />
+  <action id="GotoDeclaration">
+    <mouse-shortcut keystroke="control button1" />
+    <mouse-shortcut keystroke="button2" />
+  </action>
+  <action id="GotoFile" />
+  <action id="GotoTypeDeclaration">
+    <mouse-shortcut keystroke="shift control button1" />
+  </action>
+  <action id="ParameterInfo" />
+  <action id="PasteMultiple">
+    <keyboard-shortcut first-keystroke="ctrl v" />
+    <keyboard-shortcut first-keystroke="shift ctrl y" />
+  </action>
+  <action id="RecentChangedFiles" />
+  <action id="RecentFiles">
+    <keyboard-shortcut first-keystroke="ctrl t" second-keystroke="ctrl r" />
+  </action>
+  <action id="SwitchApply">
+    <keyboard-shortcut first-keystroke="ctrl alt enter" />
+  </action>
+  <action id="SwitchDown">
+    <keyboard-shortcut first-keystroke="ctrl alt down" />
+  </action>
+  <action id="SwitchLeft">
+    <keyboard-shortcut first-keystroke="ctrl alt left" />
+  </action>
+  <action id="SwitchRight">
+    <keyboard-shortcut first-keystroke="ctrl alt right" />
+  </action>
+  <action id="SwitchUp">
+    <keyboard-shortcut first-keystroke="ctrl alt up" />
+  </action>
+  <action id="Vcs.Log.GoToRef">
+    <keyboard-shortcut first-keystroke="alt f3" />
+  </action>
+  <action id="Vcs.ShowMessageHistory">
+    <keyboard-shortcut first-keystroke="ctrl m" />
+  </action>
+  <action id="Vcs.UpdateProject" />
+</keymap>

@@ -1,0 +1,21 @@
+<application>
+  <component name="FindSettings">
+    <option name="customScope" value="File '/Users/kwpeters/dev/pic-import/src/directory.js'" />
+    <option name="defaultScopeName" value="File '/Users/kwpeters/dev/pic-import/src/directory.js'" />
+    <option name="localRegularExpressions" value="true" />
+    <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
+    <option name="SEARCH_SCOPE" value="File '/Users/kwpeters/dev/pic-import/src/directory.js'" />
+    <recentFileMasks>
+      <mask>*.properties</mask>
+      <mask>*.html</mask>
+      <mask>*.jsp</mask>
+      <mask>*.xml</mask>
+      <mask>*.java</mask>
+      <mask>*.as</mask>
+      <mask>*.css</mask>
+      <mask>*.mxml</mask>
+      <mask>*.js</mask>
+      <mask>*.spec.js</mask>
+    </recentFileMasks>
+  </component>
+</application>

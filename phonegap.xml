@@ -1,0 +1,5 @@
+<application>
+  <component name="PhoneGapSettings">
+    <option name="executablePath" value="$USER_HOME$/.nvm/v0.10.35/bin/cordova" />
+  </component>
+</application>

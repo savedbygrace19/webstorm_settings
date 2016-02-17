@@ -1,0 +1,67 @@
+<code_scheme name="kwp">
+  <option name="AUTODETECT_INDENTS" value="false" />
+  <option name="OTHER_INDENT_OPTIONS">
+    <value>
+      <option name="INDENT_SIZE" value="4" />
+      <option name="CONTINUATION_INDENT_SIZE" value="4" />
+      <option name="TAB_SIZE" value="4" />
+      <option name="USE_TAB_CHARACTER" value="false" />
+      <option name="SMART_TABS" value="false" />
+      <option name="LABEL_INDENT_SIZE" value="0" />
+      <option name="LABEL_INDENT_ABSOLUTE" value="false" />
+      <option name="USE_RELATIVE_INDENTS" value="false" />
+    </value>
+  </option>
+  <option name="RIGHT_MARGIN" value="90" />
+  <option name="HTML_ATTRIBUTE_WRAP" value="0" />
+  <option name="HTML_TEXT_WRAP" value="0" />
+  <option name="HTML_DO_NOT_INDENT_CHILDREN_OF" value="html,thead,tbody,tfoot,code" />
+  <option name="HTML_KEEP_WHITESPACES_INSIDE" value="span,pre,textarea,code" />
+  <CssCodeStyleSettings>
+    <option name="VALUE_ALIGNMENT" value="2" />
+  </CssCodeStyleSettings>
+  <JSCodeStyleSettings>
+    <option name="ALIGN_OBJECT_PROPERTIES" value="1" />
+    <option name="ALIGN_MULTIPLE_ASSIGNMENTS" value="true" />
+  </JSCodeStyleSettings>
+  <JSON>
+    <option name="PROPERTY_ALIGNMENT" value="1" />
+    <option name="OBJECT_WRAPPING" value="0" />
+    <option name="ARRAY_WRAPPING" value="0" />
+  </JSON>
+  <XML>
+    <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
+  </XML>
+  <editorconfig>
+    <option name="ENABLED" value="false" />
+  </editorconfig>
+  <codeStyleSettings language="JavaScript">
+    <option name="SPECIAL_ELSE_IF_TREATMENT" value="false" />
+    <option name="ALIGN_MULTILINE_BINARY_OPERATION" value="true" />
+    <option name="ALIGN_MULTILINE_TERNARY_OPERATION" value="true" />
+    <option name="ALIGN_MULTILINE_ARRAY_INITIALIZER_EXPRESSION" value="true" />
+    <option name="CALL_PARAMETERS_WRAP" value="5" />
+    <option name="METHOD_PARAMETERS_WRAP" value="5" />
+    <option name="METHOD_CALL_CHAIN_WRAP" value="5" />
+    <option name="TERNARY_OPERATION_WRAP" value="5" />
+    <option name="KEEP_SIMPLE_BLOCKS_IN_ONE_LINE" value="true" />
+    <option name="KEEP_SIMPLE_METHODS_IN_ONE_LINE" value="true" />
+    <option name="ARRAY_INITIALIZER_WRAP" value="1" />
+    <option name="ASSIGNMENT_WRAP" value="5" />
+    <option name="PLACE_ASSIGNMENT_SIGN_ON_NEXT_LINE" value="true" />
+    <option name="IF_BRACE_FORCE" value="3" />
+    <option name="DOWHILE_BRACE_FORCE" value="3" />
+    <option name="WHILE_BRACE_FORCE" value="3" />
+    <option name="FOR_BRACE_FORCE" value="3" />
+  </codeStyleSettings>
+  <codeStyleSettings language="LESS">
+    <indentOptions>
+      <option name="INDENT_SIZE" value="4" />
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="SASS">
+    <indentOptions>
+      <option name="INDENT_SIZE" value="4" />
+    </indentOptions>
+  </codeStyleSettings>
+</code_scheme>
