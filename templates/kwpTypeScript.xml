@@ -1,7 +1,0 @@
-<templateSet group="kwpTypeScript">
-  <template name="import" value="import {} from &quot;$END$&quot;;" description="import" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="TypeScript" value="true" />
-    </context>
-  </template>
-</templateSet>
