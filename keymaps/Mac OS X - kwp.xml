@@ -30,6 +30,10 @@
   <action id="EditorCutLineEnd">
     <keyboard-shortcut first-keystroke="ctrl k" />
   </action>
+  <action id="EditorDelete">
+    <keyboard-shortcut first-keystroke="delete" />
+    <keyboard-shortcut first-keystroke="ctrl d" />
+  </action>
   <action id="EditorDown">
     <keyboard-shortcut first-keystroke="down" />
     <keyboard-shortcut first-keystroke="ctrl n" />

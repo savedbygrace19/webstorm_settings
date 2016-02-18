@@ -1,8 +1,17 @@
 <templateSet group="kwpJavaScript">
   <template name="f" value="function $name$($params$) {$END$}$semicolon$" description="function" toReformat="false" toShortenFQNames="true">
     <variable name="semicolon" expression="" defaultValue="&quot;;&quot;" alwaysStopAt="true" />
-    <variable name="name" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <variable name="name" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
     <variable name="params" expression="" defaultValue="&quot;params&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="clog" value="console.log(&quot;$END$&quot;);" description="console.log" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
       <option name="JS_EXPRESSION" value="true" />
