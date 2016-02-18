@@ -1,4 +1,13 @@
 <keymap version="1" name="Mac OS X - kwp" parent="Mac OS X">
+  <action id="$Cut">
+    <keyboard-shortcut first-keystroke="meta x" />
+    <keyboard-shortcut first-keystroke="shift delete" />
+    <keyboard-shortcut first-keystroke="ctrl w" />
+  </action>
+  <action id="$Paste">
+    <keyboard-shortcut first-keystroke="meta v" />
+    <keyboard-shortcut first-keystroke="ctrl y" />
+  </action>
   <action id="AceJumpAction">
     <keyboard-shortcut first-keystroke="ctrl l" />
   </action>
@@ -6,6 +15,13 @@
     <keyboard-shortcut first-keystroke="meta alt left" />
     <mouse-shortcut keystroke="button4" />
     <keyboard-shortcut first-keystroke="ctrl m" second-keystroke="b" />
+  </action>
+  <action id="CodeCompletion" />
+  <action id="Editor Cut">
+    <keyboard-shortcut first-keystroke="ctrl w" />
+  </action>
+  <action id="Editor Paste">
+    <keyboard-shortcut first-keystroke="ctrl y" />
   </action>
   <action id="EditorCutLineEnd">
     <keyboard-shortcut first-keystroke="ctrl k" />
@@ -35,6 +51,9 @@
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="meta w" />
     <keyboard-shortcut first-keystroke="ctrl equals" />
+  </action>
+  <action id="EditorToggleStickySelection">
+    <keyboard-shortcut first-keystroke="ctrl space" />
   </action>
   <action id="EditorUnSelectWord">
     <keyboard-shortcut first-keystroke="shift meta w" />
@@ -71,6 +90,9 @@
   </action>
   <action id="IncrementalSearch">
     <keyboard-shortcut first-keystroke="ctrl i" />
+  </action>
+  <action id="Macro.append semicolon">
+    <keyboard-shortcut first-keystroke="ctrl comma" second-keystroke="semicolon" />
   </action>
   <action id="NewElement">
     <keyboard-shortcut first-keystroke="ctrl enter" />
