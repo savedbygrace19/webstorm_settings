@@ -44,6 +44,7 @@
     <keyboard-shortcut first-keystroke="up" />
     <keyboard-shortcut first-keystroke="ctrl p" />
   </action>
+  <action id="FileChooser.NewFolder" />
   <action id="FindNext">
     <keyboard-shortcut first-keystroke="f3" />
   </action>
@@ -54,6 +55,19 @@
   </action>
   <action id="Generate">
     <keyboard-shortcut first-keystroke="ctrl enter" />
+  </action>
+  <action id="GotoChangedFile" />
+  <action id="GotoClass">
+    <keyboard-shortcut first-keystroke="meta n" second-keystroke="c" />
+  </action>
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="meta n" second-keystroke="f" />
+  </action>
+  <action id="GotoLine">
+    <keyboard-shortcut first-keystroke="meta n" second-keystroke="l" />
+  </action>
+  <action id="GotoSymbol">
+    <keyboard-shortcut first-keystroke="meta n" second-keystroke="s" />
   </action>
   <action id="IncrementalSearch">
     <keyboard-shortcut first-keystroke="ctrl i" />
