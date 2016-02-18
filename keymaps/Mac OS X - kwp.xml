@@ -16,6 +16,10 @@
     <mouse-shortcut keystroke="button4" />
     <keyboard-shortcut first-keystroke="ctrl m" second-keystroke="b" />
   </action>
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="meta f4" />
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="0" />
+  </action>
   <action id="CodeCompletion" />
   <action id="Editor Cut">
     <keyboard-shortcut first-keystroke="ctrl w" />
@@ -94,11 +98,27 @@
   <action id="Macro.append semicolon">
     <keyboard-shortcut first-keystroke="ctrl comma" second-keystroke="semicolon" />
   </action>
+  <action id="MoveTabDown">
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="down" />
+  </action>
+  <action id="MoveTabRight">
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="right" />
+  </action>
   <action id="NewElement">
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
+  <action id="NextSplitter">
+    <keyboard-shortcut first-keystroke="alt tab" />
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="o" />
+  </action>
   <action id="RemoteHost.NewRemoteItem">
     <keyboard-shortcut first-keystroke="ctrl enter" />
+  </action>
+  <action id="SplitHorizontally">
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="2" />
+  </action>
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="3" />
   </action>
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="ctrl alt enter" />
