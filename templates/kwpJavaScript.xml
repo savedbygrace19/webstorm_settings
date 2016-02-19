@@ -1,6 +1,6 @@
 <templateSet group="kwpJavaScript">
   <template name="f" value="function $name$($params$) {$END$}$semicolon$" description="function" toReformat="false" toShortenFQNames="true">
-    <variable name="semicolon" expression="" defaultValue="&quot;;&quot;" alwaysStopAt="true" />
+    <variable name="semicolon" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
     <variable name="name" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
     <variable name="params" expression="" defaultValue="&quot;params&quot;" alwaysStopAt="true" />
     <context>
