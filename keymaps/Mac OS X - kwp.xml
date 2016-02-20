@@ -108,6 +108,9 @@
   <action id="Macro.append semicolon">
     <keyboard-shortcut first-keystroke="ctrl comma" second-keystroke="semicolon" />
   </action>
+  <action id="Macro.kwpDeleteWhitespace">
+    <keyboard-shortcut first-keystroke="ctrl comma" second-keystroke="w" />
+  </action>
   <action id="MoveTabDown">
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="down" />
   </action>
