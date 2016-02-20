@@ -34,5 +34,29 @@
       <action id="EditorNextWord" />
       <action id="EditorHungryBackSpace" />
     </macro>
+    <macro name="finishThen">
+      <action id="IncrementalSearch" />
+      <typing text-keycode="46:0">.</typing>
+      <action id="EditorUp" />
+      <action id="EditorRight" />
+      <action id="EditorLeft" />
+      <action id="EditorEnter" />
+      <action id="IncrementalSearch" />
+      <typing text-keycode="57:1">(</typing>
+      <action id="EditorRight" />
+      <action id="EditorEnter" />
+      <typing text-keycode="70:0">f</typing>
+      <action id="ExpandLiveTemplateByTab" />
+      <action id="NextTemplateVariable" />
+      <action id="NextTemplateVariable" />
+      <typing text-keycode="82:0;69:0;83:0;85:0;76:0;84:0">result</typing>
+      <action id="NextTemplateVariable" />
+      <action id="EditorEnter" />
+      <action id="EditorUp" />
+      <action id="EditorLineStart" />
+      <action id="IncrementalSearch" />
+      <typing text-keycode="82:0;69:0;83:0;85:0;76:0;84:0">result</typing>
+      <action id="EditorEscape" />
+    </macro>
   </component>
 </application>
