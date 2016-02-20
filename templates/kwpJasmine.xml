@@ -9,8 +9,17 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="describe" value="describe(&quot;$phrase$&quot;,&#10;    function () {&#10;        $END$&#10;    )&#10;);" description="describe" toReformat="false" toShortenFQNames="true">
+  <template name="describe" value="describe(&#10;    &quot;$phrase$&quot;,&#10;    function () {&#10;        $END$&#10;    }&#10;);" description="describe" toReformat="false" toShortenFQNames="true">
     <variable name="phrase" expression="" defaultValue="&quot;phrase&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="beforeEach" value="beforeEach(function () {&#10;    $END$&#10;});" description="beforeEach()" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
       <option name="JS_EXPRESSION" value="true" />
