@@ -101,7 +101,17 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="iife" value="(function () {&#10;    $END$&#10;}());" description="immediately invoked function expression" toReformat="false" toShortenFQNames="true">
+  <template name="iife" value="(function () {&#10;    $END$&#10;})();" description="immediately invoked function expression" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="region" value="//region $description$&#10;    $END$&#10;//endregion" description="region comments" toReformat="false" toShortenFQNames="true">
+    <variable name="description" expression="" defaultValue="&quot;description&quot;" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
       <option name="JS_EXPRESSION" value="true" />
