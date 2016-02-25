@@ -21,6 +21,12 @@
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="0" />
   </action>
   <action id="CodeCompletion" />
+  <action id="CollapseDocComments">
+    <keyboard-shortcut first-keystroke="ctrl comma" second-keystroke="d" />
+  </action>
+  <action id="CollapseRegionRecursively">
+    <keyboard-shortcut first-keystroke="meta alt subtract" />
+  </action>
   <action id="CollapseSelection">
     <keyboard-shortcut first-keystroke="meta period" />
     <keyboard-shortcut first-keystroke="ctrl semicolon" second-keystroke="f" />

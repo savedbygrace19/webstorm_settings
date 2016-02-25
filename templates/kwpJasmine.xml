@@ -9,7 +9,7 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="describe" value="describe(&#10;    &quot;$phrase$&quot;,&#10;    function () {&#10;        $END$&#10;    }&#10;);" description="describe" toReformat="false" toShortenFQNames="true">
+  <template name="describe" value="describe(&quot;$phrase$&quot;, function () {&#10;    $END$&#10;});" description="describe" toReformat="false" toShortenFQNames="true">
     <variable name="phrase" expression="" defaultValue="&quot;phrase&quot;" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
