@@ -91,4 +91,23 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="kwpclass" value="var $constructor$ = (function () {&#10;    function $constructor$() {&#10;        // Private Members&#10;        // var myPrivateVar;&#10;        &#10;        // Privileged Methods&#10;        // this.myPrivilegedMethod = function myPrivilegedMethod() {&#10;        // };&#10;    }&#10;    &#10;    // $constructor$.myFunc = function () {&#10;        // todo: Implement this method&#10;    };&#10;}());" description="a javascript class" toReformat="false" toShortenFQNames="true">
+    <variable name="constructor" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="iife" value="(function () {&#10;    $END$&#10;}());" description="immediately invoked function expression" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
