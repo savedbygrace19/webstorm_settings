@@ -54,6 +54,9 @@
   <action id="EditorIncreaseFontSize">
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="ctrl equals" />
   </action>
+  <action id="EditorKillToWordEnd">
+    <keyboard-shortcut first-keystroke="alt d" />
+  </action>
   <action id="EditorLeft">
     <keyboard-shortcut first-keystroke="left" />
     <keyboard-shortcut first-keystroke="ctrl b" />
