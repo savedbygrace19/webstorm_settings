@@ -37,6 +37,9 @@
   <action id="Editor Paste">
     <keyboard-shortcut first-keystroke="ctrl y" />
   </action>
+  <action id="EditorCloneCaretBelow">
+    <keyboard-shortcut first-keystroke="ctrl semicolon" second-keystroke="n" />
+  </action>
   <action id="EditorCutLineEnd">
     <keyboard-shortcut first-keystroke="ctrl k" />
   </action>
