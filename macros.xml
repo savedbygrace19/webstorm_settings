@@ -58,5 +58,12 @@
       <typing text-keycode="82:0;69:0;83:0;85:0;76:0;84:0">result</typing>
       <action id="EditorEscape" />
     </macro>
+    <macro name="drop bookmark">
+      <action id="ToggleBookmark9" />
+    </macro>
+    <macro name="return to bookmark">
+      <action id="GotoBookmark9" />
+      <action id="ToggleBookmark9" />
+    </macro>
   </component>
 </application>

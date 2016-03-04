@@ -170,11 +170,17 @@
   <action id="Macro.append semicolon">
     <keyboard-shortcut first-keystroke="ctrl comma" second-keystroke="semicolon" />
   </action>
+  <action id="Macro.drop bookmark">
+    <keyboard-shortcut first-keystroke="ctrl comma" second-keystroke="b" />
+  </action>
   <action id="Macro.finishThen">
     <keyboard-shortcut first-keystroke="ctrl comma" second-keystroke="t" />
   </action>
   <action id="Macro.kwpDeleteWhitespace">
     <keyboard-shortcut first-keystroke="ctrl comma" second-keystroke="w" />
+  </action>
+  <action id="Macro.return to bookmark">
+    <keyboard-shortcut first-keystroke="ctrl comma" second-keystroke="r" />
   </action>
   <action id="MoveTabDown">
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="down" />
