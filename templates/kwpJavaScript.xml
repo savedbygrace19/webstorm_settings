@@ -29,12 +29,8 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="jsdconstructor" value="/**&#10; * Constructs a new $classname$.&#10; *&#10; * @class&#10; * @classdesc $classDescription$&#10; *&#10; * @param {$type1$} $param1$ - $description1$&#10; */" description="JSDoc for a constructor" toReformat="false" toShortenFQNames="true">
+  <template name="jsdconstructor" value="/**&#10; * Constructs a new $classname$.&#10; *&#10; * @class&#10; * @classdesc class_description&#10; *&#10; * @param {type} parameter_name - parameter_description&#10; */" description="JSDoc for a constructor" toReformat="false" toShortenFQNames="true">
     <variable name="classname" expression="" defaultValue="Foo" alwaysStopAt="true" />
-    <variable name="classDescription" expression="" defaultValue="&quot;Represents a foo&quot;" alwaysStopAt="true" />
-    <variable name="type1" expression="" defaultValue="&quot;type&quot;" alwaysStopAt="true" />
-    <variable name="param1" expression="" defaultValue="&quot;paramName&quot;" alwaysStopAt="true" />
-    <variable name="description1" expression="" defaultValue="&quot;description&quot;" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
       <option name="JS_EXPRESSION" value="true" />
@@ -43,13 +39,7 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="jsdmethod" value="/**&#10; * $description$&#10; * @method&#10; * @param {$type1$} $param1$ - $description1$&#10; * @returns {$returnType$} $returnDescription$&#10; */" description="JSDoc for a method" toReformat="false" toShortenFQNames="true">
-    <variable name="description" expression="" defaultValue="&quot;Description&quot;" alwaysStopAt="true" />
-    <variable name="type1" expression="" defaultValue="&quot;Type&quot;" alwaysStopAt="true" />
-    <variable name="param1" expression="" defaultValue="&quot;param1&quot;" alwaysStopAt="true" />
-    <variable name="description1" expression="" defaultValue="&quot;param1 description&quot;" alwaysStopAt="true" />
-    <variable name="returnType" expression="" defaultValue="&quot;ReturnType&quot;" alwaysStopAt="true" />
-    <variable name="returnDescription" expression="" defaultValue="&quot;return description&quot;" alwaysStopAt="true" />
+  <template name="jsdmethod" value="/**&#10; * method_descrption&#10; * @method&#10; * @param {parameter_type} parameter_name - parameter_description&#10; * @returns {return_type} return_description&#10; */" description="JSDoc for a method" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
       <option name="JS_EXPRESSION" value="true" />
@@ -58,13 +48,7 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="jsdfunction" value="/**&#10; * $description$&#10; * @param {$type1$} $param1$ - $description1$&#10; * @returns {$returnType$} $returnDescription$&#10; */" description="JSDoc for a function" toReformat="false" toShortenFQNames="true">
-    <variable name="description" expression="" defaultValue="&quot;Description&quot;" alwaysStopAt="true" />
-    <variable name="type1" expression="" defaultValue="&quot;Type&quot;" alwaysStopAt="true" />
-    <variable name="param1" expression="" defaultValue="&quot;param1&quot;" alwaysStopAt="true" />
-    <variable name="description1" expression="" defaultValue="&quot;param1 description&quot;" alwaysStopAt="true" />
-    <variable name="returnType" expression="" defaultValue="&quot;ReturnType&quot;" alwaysStopAt="true" />
-    <variable name="returnDescription" expression="" defaultValue="&quot;return description&quot;" alwaysStopAt="true" />
+  <template name="jsdfunction" value="/**&#10; * function_descrption&#10; * @param {type} parameter_name - parameter_description&#10; * @returns {return_type} return_description&#10; */" description="JSDoc for a function" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
       <option name="JS_EXPRESSION" value="true" />
