@@ -1,0 +1,11 @@
+<templateSet group="kwpTape">
+  <template name="test" value="test(&quot;$END$description&quot;, function (t) {&#10;    t.plan(1);&#10;&#10;    setTimeout(&#10;        function () {&#10;            t.ok(true, &quot;true should be truthy&quot;)&#10;        },&#10;        200&#10;    );&#10;});" description="creates a Tape test" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+</templateSet>
