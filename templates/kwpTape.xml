@@ -1,5 +1,7 @@
 <templateSet group="kwpTape">
-  <template name="test" value="test(&quot;$END$description&quot;, function (t) {&#10;    t.plan(1);&#10;&#10;    setTimeout(&#10;        function () {&#10;            t.ok(true, &quot;true should be truthy&quot;)&#10;        },&#10;        200&#10;    );&#10;});" description="creates a Tape test" toReformat="false" toShortenFQNames="true">
+  <template name="test" value="$parent$test(&quot;$description$&quot;, function (t) {&#10;    t.plan($END$1);&#10;    t.ok(true, &quot;true should be truthy&quot;)&#10;});" description="creates a Tape test" toReformat="false" toShortenFQNames="true">
+    <variable name="parent" expression="" defaultValue="&quot;t.&quot;" alwaysStopAt="true" />
+    <variable name="description" expression="" defaultValue="&quot;description&quot;" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
       <option name="JS_EXPRESSION" value="true" />
