@@ -1,5 +1,5 @@
 <templateSet group="kwpTape">
-  <template name="test" value="$parent$test(&quot;$description$&quot;, function (t) {&#10;    $END$t.ok(true, &quot;true should be truthy&quot;);&#10;    &#10;    t.end();&#10;});" description="creates a Tape test" toReformat="false" toShortenFQNames="true">
+  <template name="test" value="$parent$test(&quot;$description$&quot;, function (t: test.Test): void {&#10;    $END$t.ok(true, &quot;true should be truthy&quot;);&#10;    &#10;    t.end();&#10;});" description="creates a Tape test" toReformat="false" toShortenFQNames="true">
     <variable name="parent" expression="" defaultValue="&quot;t.&quot;" alwaysStopAt="true" />
     <variable name="description" expression="" defaultValue="&quot;description&quot;" alwaysStopAt="true" />
     <context>
