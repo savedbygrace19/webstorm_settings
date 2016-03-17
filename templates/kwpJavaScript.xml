@@ -113,4 +113,8 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="fa" value="($params$) = {$END$}" description="fat arrow function =&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="params" expression="" defaultValue="&quot;params&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
 </templateSet>
