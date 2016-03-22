@@ -167,6 +167,10 @@
   <action id="IncrementalSearch">
     <keyboard-shortcut first-keystroke="ctrl i" />
   </action>
+  <action id="JumpToLastChange">
+    <keyboard-shortcut first-keystroke="shift meta back_space" />
+    <keyboard-shortcut first-keystroke="ctrl comma" second-keystroke="l" />
+  </action>
   <action id="Macro.append semicolon">
     <keyboard-shortcut first-keystroke="ctrl comma" second-keystroke="semicolon" />
   </action>
