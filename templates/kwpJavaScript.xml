@@ -117,4 +117,14 @@
     <variable name="params" expression="" defaultValue="&quot;params&quot;" alwaysStopAt="true" />
     <context />
   </template>
+  <template name="import" value="import {$END$} from &quot;$filename$&quot;;" description="an import statement" toReformat="false" toShortenFQNames="true">
+    <variable name="filename" expression="" defaultValue="&quot;filename&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
