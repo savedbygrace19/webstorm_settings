@@ -1,0 +1,67 @@
+<application>
+  <component name="AlternateApplicationComponent">
+    <option name="freeRegexActive" value="true" />
+    <option name="freeRegexItems">
+      <list>
+        <AlternateFreeRegexItem>
+          <option name="matchExpression" value="^Test(.*?)\.java$" />
+          <option name="replaceExpression" value="$1.java" />
+        </AlternateFreeRegexItem>
+        <AlternateFreeRegexItem>
+          <option name="matchExpression" value="^(.*?)\.java$" />
+          <option name="replaceExpression" value="Test$1.java" />
+        </AlternateFreeRegexItem>
+        <AlternateFreeRegexItem>
+          <option name="matchExpression" value="^(.*?)Test\.java$" />
+          <option name="replaceExpression" value="$1.java" />
+        </AlternateFreeRegexItem>
+        <AlternateFreeRegexItem>
+          <option name="matchExpression" value="^(.*?)\.java$" />
+          <option name="replaceExpression" value="$1Test.java" />
+        </AlternateFreeRegexItem>
+        <AlternateFreeRegexItem>
+          <option name="matchExpression" value="^(.*?)\.spec\.js$" />
+          <option name="replaceExpression" value="$1.js" />
+        </AlternateFreeRegexItem>
+        <AlternateFreeRegexItem>
+          <option name="matchExpression" value="^(.*?)\.js" />
+          <option name="replaceExpression" value="$1.spec.js" />
+        </AlternateFreeRegexItem>
+        <AlternateFreeRegexItem>
+          <option name="matchExpression" value="^(.*?)\.spec\.ts$" />
+          <option name="replaceExpression" value="$1.ts" />
+        </AlternateFreeRegexItem>
+        <AlternateFreeRegexItem>
+          <option name="matchExpression" value="^(.*?)\.ts" />
+          <option name="replaceExpression" value="$1.spec.ts" />
+        </AlternateFreeRegexItem>
+      </list>
+    </option>
+    <option name="genericRegexActive" value="false" />
+    <option name="genericPostfixRegexItems">
+      <AlternateGenericPrefixPostfixRegexItem>
+        <option name="type" value="POSTFIX" />
+        <option name="expression" value="Impl" />
+        <option name="grouping" value="true" />
+        <option name="description" value="Implementations" />
+      </AlternateGenericPrefixPostfixRegexItem>
+      <AlternateGenericPrefixPostfixRegexItem>
+        <option name="type" value="POSTFIX" />
+        <option name="expression" value="[Tt]est" />
+        <option name="grouping" value="true" />
+        <option name="description" value="Test classes and files" />
+      </AlternateGenericPrefixPostfixRegexItem>
+      <AlternateGenericPrefixPostfixRegexItem>
+        <option name="type" value="POSTFIX" />
+        <option name="expression" value="(?:_\w{2}(?:_\w{2})?)" />
+        <option name="description" value="Locales (ex: 'description_en_UK.properties')" />
+      </AlternateGenericPrefixPostfixRegexItem>
+      <AlternateGenericPrefixPostfixRegexItem>
+        <option name="type" value="POSTFIX" />
+        <option name="expression" value="\.spec\." />
+        <option name="grouping" value="true" />
+        <option name="description" value="" />
+      </AlternateGenericPrefixPostfixRegexItem>
+    </option>
+  </component>
+</application>
