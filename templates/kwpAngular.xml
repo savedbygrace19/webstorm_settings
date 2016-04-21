@@ -1,0 +1,5 @@
+<templateSet group="kwpAngular">
+  <template name="webstormsucks" value="webstorm sucks" toReformat="false" toShortenFQNames="true">
+    <context />
+  </template>
+</templateSet>
