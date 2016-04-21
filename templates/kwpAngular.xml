@@ -1,5 +1,29 @@
 <templateSet group="kwpAngular">
-  <template name="webstormsucks" value="webstorm sucks" toReformat="false" toShortenFQNames="true">
-    <context />
+  <template name="ngcont" value="$moduleVar$.controller(&#10;    '$controllerName$',&#10;    [&#10;        '$scope',&#10;        function ($scope) {&#10;            'use strict';&#10;            $END$$scope.data = 'foo';&#10;        }&#10;    ]&#10;);" description="Angular controller" toReformat="true" toShortenFQNames="true">
+    <variable name="moduleVar" expression="" defaultValue="&quot;moduleVar&quot;" alwaysStopAt="true" />
+    <variable name="controllerName" expression="" defaultValue="&quot;myCtrl&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="ngdir" value="$moduleVar$.directive(&#10;    '$directiveName$',&#10;    [&#10;        'injectableA',&#10;        'injectableB',&#10;        function (injectableA, injectableB) {&#10;            &quot;use strict&quot;;&#10;&#10;            return {&#10;                restrict: 'E',&#10;                scope: {&#10;                    title: &quot;@&quot;,&#10;                    strings: &quot;=&quot;&#10;                },&#10;                templateUrl: 'partials/$partialFile$.html',&#10;                link: function (scope, element, attrs)&#10;                {&#10;                }&#10;            };&#10;        }&#10;    ]&#10;);$END$" description="Angular directive" toReformat="true" toShortenFQNames="true">
+    <variable name="moduleVar" expression="" defaultValue="&quot;moduleVar&quot;" alwaysStopAt="true" />
+    <variable name="directiveName" expression="" defaultValue="&quot;myDirective&quot;" alwaysStopAt="true" />
+    <variable name="partialFile" expression="" defaultValue="&quot;myDirective&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="ngser" value="$moduleVar$.factory(&#10;    '$serviceName$',&#10;    [&#10;        '$injectable1$',&#10;        '$injectable2$',&#10;        function ($injectable1$, $injectable2$) {&#10;            'use strict';&#10;&#10;            return {&#10;                // todo: Reveal items created above.&#10;            };&#10;        }&#10;    ]&#10;);$END$&#10;" description="Angular service" toReformat="true" toShortenFQNames="true">
+    <variable name="moduleVar" expression="" defaultValue="&quot;moduleVar&quot;" alwaysStopAt="true" />
+    <variable name="serviceName" expression="" defaultValue="&quot;myService&quot;" alwaysStopAt="true" />
+    <variable name="injectable1" expression="" defaultValue="&quot;injectable1&quot;" alwaysStopAt="true" />
+    <variable name="injectable2" expression="" defaultValue="&quot;injectable2&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
   </template>
 </templateSet>
