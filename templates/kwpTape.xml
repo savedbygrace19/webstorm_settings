@@ -1,0 +1,13 @@
+<templateSet group="kwpTape">
+  <template name="test" value="$t$test(&#10;    &quot;$desc$&quot;,&#10;    function (t: test.Test): void {&#10;        t.ok(false$END$);&#10;        t.end();&#10;    }&#10;);" description="a Tape test" toReformat="false" toShortenFQNames="true">
+    <variable name="t" expression="" defaultValue="&quot;t.&quot;" alwaysStopAt="true" />
+    <variable name="desc" expression="" defaultValue="&quot;description&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+</templateSet>
