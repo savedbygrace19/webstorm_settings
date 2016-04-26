@@ -117,7 +117,8 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="arrow" value="($END$) =&gt; {}" description="insert an arrow function" toReformat="false" toShortenFQNames="true">
+  <template name="arrow" value="($params$) =&gt; {$END$}" description="insert an arrow function" toReformat="false" toShortenFQNames="true">
+    <variable name="params" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
       <option name="JS_EXPRESSION" value="true" />
