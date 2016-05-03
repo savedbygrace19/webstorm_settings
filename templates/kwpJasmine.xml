@@ -1,0 +1,40 @@
+<templateSet group="kwpJasmine">
+  <template name="describe" value="describe(&quot;$description$&quot;, function () {&#10;    $END$&#10;});" description="Jasmine describe" toReformat="false" toShortenFQNames="true">
+    <variable name="description" expression="" defaultValue="&quot;description&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="expect" value="expect($END$);" description="Jasmine expect" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="it" value="it(&quot;$description$&quot;,&#10;    function () {&#10;        $END$&#10;    }&#10;);" description="Jasmine it" toReformat="false" toShortenFQNames="true">
+    <variable name="description" expression="" defaultValue="&quot;description&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="jasminefile" value="/* global describe */&#10;/* global beforeEach */&#10;/* global inject */&#10;/* global it */&#10;/* global expect */&#10;/* global module */&#10;&#10;describe('homeViewCtrl', function () {&#10;    &quot;use strict&quot;;&#10;&#10;    var scope,&#10;        ctrl;&#10;&#10;    beforeEach(module('moduleUnderTest'));&#10;&#10;    beforeEach(inject(function ($controller, $rootScope) {&#10;        scope = $rootScope.$new();&#10;        ctrl = $controller('homeViewCtrl', {$scope: scope});&#10;    }));&#10;});" description="Jasmine file" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="jasminengcontroller" value="describe('$MyCtrl$', function () {&#10;    &quot;use strict&quot;;&#10;&#10;    var scope, ctrl;&#10;&#10;    // Load the module under test.&#10;    beforeEach(module('$myModule$'));&#10;&#10;    // Create the controller under test.&#10;    beforeEach(inject(function ($controller, $rootScope) {&#10;        scope = $rootScope.$new();&#10;        ctrl = $controller('$MyCtrl$', {$scope: scope});&#10;    }));&#10;&#10;    it('should exist', function () {&#10;        expect(ctrl).toBeDefined();&#10;    });&#10;    &#10;});$END$" description="Jasmine spec file for an Angular 1.x controller" toReformat="false" toShortenFQNames="true">
+    <variable name="MyCtrl" expression="" defaultValue="&quot;MyCtrl&quot;" alwaysStopAt="true" />
+    <variable name="myModule" expression="" defaultValue="&quot;myModule&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="jasminengservice" value="describe('$mySvc$', function () {&#10;    &quot;use strict&quot;;&#10;&#10;    var $mySvc$;&#10;&#10;&#10;    // Load the module under test.&#10;    beforeEach(module('$myModule$'));&#10;&#10;&#10;    // Get the service under test.&#10;    beforeEach(inject(function (_$mySvc$_) {&#10;        $mySvc$ = _$mySvc$_;&#10;    }));&#10;&#10;&#10;    it(&quot;should exist&quot;, function () {&#10;        expect(currentUserSvc).toBeDefined();&#10;    });&#10;&#10;});$END$" description="jasmine spec file for an Angular 1.x service" toReformat="false" toShortenFQNames="true">
+    <variable name="mySvc" expression="" defaultValue="&quot;mySvc&quot;" alwaysStopAt="true" />
+    <variable name="myModule" expression="" defaultValue="&quot;myModule&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
