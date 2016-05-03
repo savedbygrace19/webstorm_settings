@@ -1,5 +1,5 @@
 <templateSet group="kwpTape">
-  <template name="testts" value="$t$test(&#10;    &quot;$desc$&quot;,&#10;    function (t: test.Test): void {&#10;        t.ok(false$END$);&#10;        t.end();&#10;    }&#10;);" description="a Tape test (in TypeScript)" toReformat="false" toShortenFQNames="true">
+  <template name="testts" value="$t$test(&quot;$desc$&quot;,&#10;    function (t: test.Test): void {&#10;        t.ok(false$END$);&#10;        t.end();&#10;    }&#10;);" description="a Tape test (in TypeScript)" toReformat="false" toShortenFQNames="true">
     <variable name="t" expression="" defaultValue="&quot;t.&quot;" alwaysStopAt="true" />
     <variable name="desc" expression="" defaultValue="&quot;description&quot;" alwaysStopAt="true" />
     <context>
@@ -10,7 +10,7 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="testjs" value="$t$test(&#10;    &quot;$desc$&quot;,&#10;    function (t) {&#10;        t.ok(false$END$);&#10;        t.end();&#10;    }&#10;);" description="a Tape test (in JavaScript)" toReformat="false" toShortenFQNames="true">
+  <template name="testjs" value="$t$test(&quot;$desc$&quot;, function (t) {&#10;    t.ok(false$END$);&#10;    t.end();&#10;});" description="a Tape test (in JavaScript)" toReformat="false" toShortenFQNames="true">
     <variable name="t" expression="" defaultValue="&quot;t.&quot;" alwaysStopAt="true" />
     <variable name="desc" expression="" defaultValue="&quot;description&quot;" alwaysStopAt="true" />
     <context>
