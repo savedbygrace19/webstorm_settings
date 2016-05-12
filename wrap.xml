@@ -1,0 +1,5 @@
+<application>
+  <component name="WrapSettingsProvider">
+    <option name="columnWidthOverride" value="80" />
+  </component>
+</application>
