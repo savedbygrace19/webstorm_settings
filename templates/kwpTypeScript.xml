@@ -1,5 +1,6 @@
 <templateSet group="kwpTypeScript">
-  <template name="import" value="import {} from &quot;$END$&quot;;" description="import" toReformat="false" toShortenFQNames="true">
+  <template name="import" value="import {$END$} from &quot;$file$&quot;;" description="import" toReformat="false" toShortenFQNames="true">
+    <variable name="file" expression="" defaultValue="&quot;file&quot;" alwaysStopAt="true" />
     <context>
       <option name="TypeScript" value="true" />
     </context>
