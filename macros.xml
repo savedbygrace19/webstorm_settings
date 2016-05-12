@@ -70,5 +70,12 @@
       <action id="GotoBookmark9" />
       <action id="ToggleBookmark9" />
     </macro>
+    <macro name="kwp-chain">
+      <action id="Find" />
+      <typing text-keycode="46:0">.</typing>
+      <shortuct text="ESCAPE" />
+      <action id="EditorLeft" />
+      <action id="EditorEnter" />
+    </macro>
   </component>
 </application>
