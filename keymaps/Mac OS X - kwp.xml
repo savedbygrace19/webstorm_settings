@@ -200,6 +200,9 @@
   <action id="Macro.finishThen">
     <keyboard-shortcut first-keystroke="ctrl comma" second-keystroke="t" />
   </action>
+  <action id="Macro.kwp-word-wap-remove-selection">
+    <keyboard-shortcut first-keystroke="alt q" />
+  </action>
   <action id="Macro.kwpDeleteWhitespace">
     <keyboard-shortcut first-keystroke="ctrl comma" second-keystroke="w" />
   </action>
@@ -274,10 +277,6 @@
   <action id="ToggleBookmark" />
   <action id="Vcs.ShowMessageHistory">
     <keyboard-shortcut first-keystroke="meta e" />
-  </action>
-  <action id="com.andrewbrookins.idea.wrap.WrapAction">
-    <keyboard-shortcut first-keystroke="shift ctrl meta w" />
-    <keyboard-shortcut first-keystroke="alt q" />
   </action>
   <action id="intellij.frontendalignement.AlignItAction">
     <keyboard-shortcut first-keystroke="ctrl comma" second-keystroke="a" />
