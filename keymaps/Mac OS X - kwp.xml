@@ -21,6 +21,11 @@
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="0" />
   </action>
   <action id="CodeCompletion" />
+  <action id="CollapseAllRegions">
+    <keyboard-shortcut first-keystroke="shift meta subtract" />
+    <keyboard-shortcut first-keystroke="shift meta minus" />
+    <keyboard-shortcut first-keystroke="ctrl comma" second-keystroke="minus" />
+  </action>
   <action id="CollapseDocComments">
     <keyboard-shortcut first-keystroke="ctrl comma" second-keystroke="d" />
   </action>
@@ -132,6 +137,11 @@
   </action>
   <action id="EmacsStyleIndent">
     <keyboard-shortcut first-keystroke="tab" />
+  </action>
+  <action id="ExpandAllRegions">
+    <keyboard-shortcut first-keystroke="shift meta add" />
+    <keyboard-shortcut first-keystroke="shift meta equals" />
+    <keyboard-shortcut first-keystroke="ctrl comma" second-keystroke="shift equals" />
   </action>
   <action id="ExpandAllToLevel1">
     <keyboard-shortcut first-keystroke="meta alt multiply" second-keystroke="1" />
