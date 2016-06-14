@@ -285,6 +285,9 @@
     <keyboard-shortcut first-keystroke="ctrl alt up" />
   </action>
   <action id="ToggleBookmark" />
+  <action id="Unsplit">
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="up" />
+  </action>
   <action id="Vcs.ShowMessageHistory">
     <keyboard-shortcut first-keystroke="meta e" />
   </action>
