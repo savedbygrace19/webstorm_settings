@@ -9,12 +9,16 @@
       <action id="EditorPaste" />
     </macro>
     <macro name="&lt;noname&gt;">
-      <typing text-keycode="44:0;32:0">,&amp;#x20;</typing>
-      <action id="Macro.kwpDeleteWhitespace" />
-      <action id="EditorNextWord" />
-      <action id="EditorHungryBackSpace" />
-      <typing text-keycode="32:0">&amp;#x20;</typing>
-      <action id="EditorLineEnd" />
+      <action id="EditorCutLineEnd" />
+      <typing text-keycode="77:0;86:0;32:0;222:1">mv&amp;#x20;&quot;</typing>
+      <action id="EditorPaste" />
+      <typing text-keycode="222:1;32:0">&quot;&amp;#x20;</typing>
+      <shortuct text="control QUOTE" />
+      <typing text-keycode="222:1">&quot;</typing>
+      <action id="EditorPaste" />
+      <typing text-keycode="222:1">&quot;</typing>
+      <action id="EditorDown" />
+      <action id="EditorLineStart" />
     </macro>
     <macro name="throw word to end">
       <action id="EditorSelectWord" />
