@@ -253,6 +253,7 @@
   </action>
   <action id="PlaybackLastMacro">
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="e" />
+    <keyboard-shortcut first-keystroke="ctrl f8" />
   </action>
   <action id="PreviousEditorTab" />
   <action id="PreviousTab" />
