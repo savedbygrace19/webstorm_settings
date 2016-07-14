@@ -3,9 +3,6 @@
     <variable name="moduleVar" expression="" defaultValue="&quot;moduleVar&quot;" alwaysStopAt="true" />
     <variable name="controllerName" expression="" defaultValue="&quot;myCtrl&quot;" alwaysStopAt="true" />
     <context>
-      <option name="JAVA_SCRIPT" value="false" />
-      <option name="JS_EXPRESSION" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>

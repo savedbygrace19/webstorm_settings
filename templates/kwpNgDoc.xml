@@ -2,33 +2,21 @@
   <template name="ngddir" value="/**&#10; * @ngdoc directive&#10; * @module &lt;module&gt;&#10; * @name &lt;module&gt;.directive:&lt;entity&gt;&#10; * @scope&#10; * @restrict AE&#10; * @param {type} paramName Parameter description goes here.&#10; *&#10; * @description&#10; * Directive description goes here.&#10; */$END$" description="directive doc" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
-      <option name="JS_EXPRESSION" value="true" />
-      <option name="JSX_HTML" value="true" />
-      <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
   <template name="ngdlink" value="{@link moduleName.unit:unitName linkText}$END$" description="link" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
-      <option name="JS_EXPRESSION" value="true" />
-      <option name="JSX_HTML" value="true" />
-      <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
   <template name="ngdmethod" value="/**&#10; * @ngdoc method&#10; * @name unitName#methodName&#10; * @methodOf moduleName.unit:unitName#methodName&#10; * @param {param1Type} param1Name param1Description&#10; * @param {param2Type} param2Name param2Description&#10; * @returns {returnType} returnDescription&#10; * @description&#10; * Description goes here.&#10; */$END$" description="method" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
-      <option name="JS_EXPRESSION" value="true" />
-      <option name="JSX_HTML" value="true" />
-      <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
   <template name="ngdobj" value="/**&#10; * @ngdoc object&#10; * @module &lt;module&gt;&#10; * @name &lt;module&gt;.&lt;unit&gt;:&lt;entity&gt;&#10; * @description&#10; * Nested object description&#10; */" description="object" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
-      <option name="JS_EXPRESSION" value="true" />
-      <option name="JSX_HTML" value="true" />
-      <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
 </templateSet>

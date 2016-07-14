@@ -35,9 +35,6 @@
   <template name="global" value="/* global $END$ */" description="global comment" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
-      <option name="JS_EXPRESSION" value="true" />
-      <option name="JSX_HTML" value="true" />
-      <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
   <template name="if" value="if ($END$) {&#10;}" description="if statement" toReformat="false" toShortenFQNames="true">
@@ -55,17 +52,11 @@
     <variable name="className" expression="" defaultValue="&quot;MyClass&quot;" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
-      <option name="JS_EXPRESSION" value="true" />
-      <option name="JSX_HTML" value="true" />
-      <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
   <template name="jsdfunc" value="/**&#10; * $END$&#10; * @param {Type} paramName - ParameterDescription&#10; * @returns {Type} ReturnDescription&#10; */" description="JSDoc for a function" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
-      <option name="JS_EXPRESSION" value="true" />
-      <option name="JSX_HTML" value="true" />
-      <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
   <template name="jsdprop" value="/**&#10; * $propDescription$&#10; * @name $className$#$propName$&#10; * @type $type$&#10; * @default $defaultValue$&#10; */" description="JSDoc for a property" toReformat="false" toShortenFQNames="true">
@@ -76,26 +67,17 @@
     <variable name="defaultValue" expression="" defaultValue="&quot;defaultValue&quot;" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
-      <option name="JS_EXPRESSION" value="true" />
-      <option name="JSX_HTML" value="true" />
-      <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
   <template name="kwpclass" value="var $ConstructorName$ = (function () {&#10;&#10;    /**&#10;     * Constructs a new $ConstructorName$.&#10;     *&#10;     * @class&#10;     * @classdesc Describe_the_class_here&#10;     * @param {typeA} paramNameA - paramADesc&#10;     * @param {typeB} paramNameB - paramBDesc&#10;     */&#10;    function $ConstructorName$() {&#10;&#10;        // Data members&#10;        // todo: Define data members.&#10;        // this.name = 'Kevin';&#10;    }&#10;&#10;    // Member functions&#10;    // todo: Define methods.&#10;    // $ConstructorName$.prototype.myMethod = function () { };&#10;&#10;    return $ConstructorName$;&#10;})();$END$" description="A JavaScript class (ES5)" toReformat="false" toShortenFQNames="true">
     <variable name="ConstructorName" expression="" defaultValue="&quot;ConstructorName&quot;" alwaysStopAt="true" />
     <context>
-      <option name="JAVA_SCRIPT" value="false" />
-      <option name="JS_EXPRESSION" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
   <template name="sep" value="////////////////////////////////////////////////////////////////////////////////" description="Separator comment" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
-      <option name="JS_EXPRESSION" value="true" />
-      <option name="JSX_HTML" value="true" />
-      <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
   <template name="str" value="'$str$'$END$" description="A string" toReformat="false" toShortenFQNames="true">
@@ -112,18 +94,12 @@
   <template name="jsdmethod" value="/**&#10; * $END$&#10; * @method&#10; * @param {Type} paramName - ParameterDescription&#10; * @returns {Type} ReturnDescription&#10; */" description="JSDoc for a method" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
-      <option name="JS_EXPRESSION" value="true" />
-      <option name="JSX_HTML" value="true" />
-      <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
   <template name="arrow" value="($params$) =&gt; {$END$}" description="insert an arrow function" toReformat="false" toShortenFQNames="true">
     <variable name="params" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
-      <option name="JS_EXPRESSION" value="true" />
-      <option name="JSX_HTML" value="true" />
-      <option name="JS_STATEMENT" value="true" />
       <option name="TypeScript" value="true" />
     </context>
   </template>

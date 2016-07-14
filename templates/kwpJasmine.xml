@@ -26,7 +26,6 @@
     <variable name="MyCtrl" expression="" defaultValue="&quot;MyCtrl&quot;" alwaysStopAt="true" />
     <variable name="myModule" expression="" defaultValue="&quot;myModule&quot;" alwaysStopAt="true" />
     <context>
-      <option name="JS_EXPRESSION" value="false" />
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
