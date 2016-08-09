@@ -4,6 +4,7 @@
       <action id="Macro.Goto bookmark 9">
         <abbreviation name="goto9" />
       </action>
+      <action id="ShowUmlDiagram" />
       <action id="Macro.Create bookmark 9">
         <abbreviation name="create9" />
       </action>
