@@ -103,4 +103,25 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="cdump" value="console.log(&quot;$varName$:&quot;);&#10;console.dir($varName$);$END$" description="console.log a variable" toReformat="false" toShortenFQNames="true">
+    <variable name="varName" expression="" defaultValue="&quot;var&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="cdir" value="console.dir($varName$);$END$" description="console.dir() a variable" toReformat="false" toShortenFQNames="true">
+    <variable name="varName" expression="" defaultValue="&quot;var&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="gothere" value="console.log(&quot;$message$&quot;);$END$" description="console.log() a message" toReformat="false" toShortenFQNames="true">
+    <variable name="message" expression="" defaultValue="&quot;----- GOT HERE -----&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
