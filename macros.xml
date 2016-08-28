@@ -70,5 +70,24 @@
       <action id="com.andrewbrookins.idea.wrap.WrapAction" />
       <action id="EditorLineEnd" />
     </macro>
+    <macro name="then">
+      <action id="EditorLineEnd" />
+      <action id="EditorLeft" />
+      <typing text-keycode="46:0;84:0;72:0;69:0;78:0;57:1;48:1">.then()</typing>
+      <action id="EditorLeft" />
+      <action id="EditorLeft" />
+      <action id="EditorLeft" />
+      <action id="EditorLeft" />
+      <action id="EditorLeft" />
+      <action id="EditorLeft" />
+      <action id="EditorLeft" />
+      <action id="EditorEnter" />
+      <action id="EditorRight" />
+      <action id="EditorRight" />
+      <action id="EditorRight" />
+      <action id="EditorRight" />
+      <action id="EditorRight" />
+      <action id="EditorRight" />
+    </macro>
   </component>
 </application>

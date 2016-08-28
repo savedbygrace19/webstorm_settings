@@ -124,4 +124,10 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="then" value="&#10;.then($END$)" description="then" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
