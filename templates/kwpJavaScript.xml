@@ -103,7 +103,7 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="cdump" value="console.log(&quot;$varName$:&quot;);&#10;console.dir($varName$);$END$" description="console.log a variable" toReformat="false" toShortenFQNames="true">
+  <template name="cdump" value="console.log(&quot;----- $varName$ -----&quot;);&#10;console.dir($varName$);$END$" description="console.log a variable" toReformat="false" toShortenFQNames="true">
     <variable name="varName" expression="" defaultValue="&quot;var&quot;" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
