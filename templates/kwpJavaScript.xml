@@ -136,4 +136,12 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="she" value="#!$ENV$ $NODE$" description="shebang line" toReformat="false" toShortenFQNames="false">
+    <variable name="ENV" expression="" defaultValue="&quot;/usr/bin/env&quot;" alwaysStopAt="false" />
+    <variable name="NODE" expression="" defaultValue="&quot;node&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
