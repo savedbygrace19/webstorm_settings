@@ -89,5 +89,18 @@
       <action id="EditorRight" />
       <action id="EditorRight" />
     </macro>
+    <macro name="surround with code">
+      <action id="SearchEverywhere" />
+      <typing text-keycode="83:0;85:0;82:0;82:0;79:0;85:0">surrou</typing>
+      <shortuct text="DOWN" />
+      <shortuct text="DOWN" />
+      <shortuct text="DOWN" />
+      <shortuct text="DOWN" />
+      <shortuct text="DOWN" />
+      <shortuct text="DOWN" />
+      <shortuct text="ENTER" />
+      <typing text-keycode="67:0;79:0;68:0;69:0">code</typing>
+      <shortuct text="ENTER" />
+    </macro>
   </component>
 </application>
