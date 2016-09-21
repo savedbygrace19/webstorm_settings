@@ -10,9 +10,11 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="req" value="require('$END$')" description="A require expression" toReformat="false" toShortenFQNames="true">
+  <template name="require" value="const $moduleVar$ = require(&quot;$module$&quot;);" description="A require expression" toReformat="false" toShortenFQNames="true">
+    <variable name="module" expression="" defaultValue="&quot;module&quot;" alwaysStopAt="true" />
+    <variable name="moduleVar" expression="" defaultValue="&quot;moduleVar&quot;" alwaysStopAt="true" />
     <context>
-      <option name="JS_EXPRESSION" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
 </templateSet>
