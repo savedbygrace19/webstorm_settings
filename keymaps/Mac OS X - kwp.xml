@@ -190,11 +190,6 @@
   </action>
   <action id="ExpressionTypeInfo" />
   <action id="FileChooser.NewFolder" />
-  <action id="Find">
-    <keyboard-shortcut first-keystroke="meta f" />
-    <keyboard-shortcut first-keystroke="alt f3" />
-    <keyboard-shortcut first-keystroke="ctrl i" />
-  </action>
   <action id="FindNext">
     <keyboard-shortcut first-keystroke="f3" />
   </action>
@@ -218,6 +213,9 @@
   </action>
   <action id="GotoSymbol">
     <keyboard-shortcut first-keystroke="meta n" second-keystroke="s" />
+  </action>
+  <action id="IncrementalSearch">
+    <keyboard-shortcut first-keystroke="ctrl i" />
   </action>
   <action id="JumpToLastChange">
     <keyboard-shortcut first-keystroke="shift meta back_space" />
