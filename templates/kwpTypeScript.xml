@@ -5,7 +5,7 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="es6promise" value="new Promise&lt;$resolveType$&gt;((resolve: ($resolveType$) =&gt; void, reject: (err: any) =&gt; void) =&gt; {&#10;    $END$&#10;})" toReformat="false" toShortenFQNames="true">
+  <template name="es6promise" value="new Promise&lt;$resolveType$&gt;((resolve: (result: $resolveType$) =&gt; void, reject: (err: any) =&gt; void) =&gt; {&#10;    $END$&#10;})" toReformat="false" toShortenFQNames="true">
     <variable name="resolveType" expression="" defaultValue="&quot;ResolveType&quot;" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
