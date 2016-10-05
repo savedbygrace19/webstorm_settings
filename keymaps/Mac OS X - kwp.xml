@@ -256,7 +256,9 @@
     <keyboard-shortcut first-keystroke="alt tab" />
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="o" />
   </action>
-  <action id="NextTab" />
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="close_bracket" />
+  </action>
   <action id="PasteMultiple">
     <keyboard-shortcut first-keystroke="shift meta v" />
     <keyboard-shortcut first-keystroke="alt y" />
@@ -266,7 +268,9 @@
     <keyboard-shortcut first-keystroke="ctrl f8" />
   </action>
   <action id="PreviousEditorTab" />
-  <action id="PreviousTab" />
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="open_bracket" />
+  </action>
   <action id="RemoteHost.NewRemoteItem">
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
