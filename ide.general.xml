@@ -11,5 +11,6 @@
     <entry key="tabs.alphabetical" value="true" />
     <entry key="dumb.aware.run.configurations" value="true" />
     <entry key="search.everywhere.settings" value="true" />
+    <entry key="debugger.valueTooltipAutoShowOnSelection" value="true" />
   </component>
 </application>
