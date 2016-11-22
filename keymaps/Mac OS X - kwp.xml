@@ -44,6 +44,7 @@
     <keyboard-shortcut first-keystroke="meta period" />
     <keyboard-shortcut first-keystroke="ctrl semicolon" second-keystroke="f" />
   </action>
+  <action id="CopyElement" />
   <action id="Editor Cut">
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
@@ -274,6 +275,9 @@
   <action id="RemoteHost.NewRemoteItem">
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
+  <action id="Resume">
+    <keyboard-shortcut first-keystroke="f5" />
+  </action>
   <action id="ShowBookmarks" />
   <action id="SplitHorizontally">
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="2" />
@@ -312,6 +316,10 @@
     <keyboard-shortcut first-keystroke="ctrl alt up" />
   </action>
   <action id="ToggleBookmark" />
+  <action id="ToggleLineBreakpoint">
+    <keyboard-shortcut first-keystroke="meta f8" />
+    <keyboard-shortcut first-keystroke="f9" />
+  </action>
   <action id="Unsplit">
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="up" />
   </action>
