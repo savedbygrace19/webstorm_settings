@@ -1,0 +1,7 @@
+<templateSet group="kwpMarkdown">
+  <template name="code" value="```&#10;$END$&#10;```" description="Code format block" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>
