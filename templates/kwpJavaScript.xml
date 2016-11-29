@@ -144,4 +144,13 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="jsdrest" value="/**&#10; * $method$ $route$&#10; * $description$&#10; */" description="JSDoc-style comment for a RESTful endpoint" toReformat="false" toShortenFQNames="true">
+    <variable name="method" expression="" defaultValue="&quot;GET&quot;" alwaysStopAt="true" />
+    <variable name="route" expression="" defaultValue="&quot;/api/v2/store&quot;" alwaysStopAt="true" />
+    <variable name="description" expression="" defaultValue="&quot;description&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
