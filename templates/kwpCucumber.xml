@@ -3,14 +3,14 @@
     <variable name="type" expression="" defaultValue="&quot;Given&quot;" alwaysStopAt="true" />
     <variable name="phrase" expression="" defaultValue="&quot;foo&quot;" alwaysStopAt="true" />
     <context>
-      <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
   <template name="scenario" value="Scenario: scenario_title&#10;    Given given_text&#10;    When when_text&#10;    Then then_text" description="A Cucumber scenario" toReformat="false" toShortenFQNames="true">
     <context>
-      <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
 </templateSet>

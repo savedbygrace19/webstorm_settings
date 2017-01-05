@@ -8,8 +8,8 @@
   <template name="es6promise" value="new Promise&lt;$resolveType$&gt;((resolve: (result: $resolveType$) =&gt; void, reject: (err: any) =&gt; void) =&gt; {&#10;    $END$&#10;})" toReformat="false" toShortenFQNames="true">
     <variable name="resolveType" expression="" defaultValue="&quot;ResolveType&quot;" alwaysStopAt="true" />
     <context>
-      <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
 </templateSet>
