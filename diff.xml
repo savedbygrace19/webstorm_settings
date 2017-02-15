@@ -44,6 +44,7 @@
       <entry key="CommitDialog">
         <PlaceSettings>
           <option name="SHOW_INDENT_LINES" value="true" />
+          <option name="HIGHLIGHTING_LEVEL" value="SIMPLE" />
           <option name="READ_ONLY_LOCK" value="false" />
         </PlaceSettings>
       </entry>
