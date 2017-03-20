@@ -2,8 +2,8 @@
   <template name="code" value="&lt;code&gt;$SELECTION$&lt;/code&gt;" description="Surround with &lt;code&gt;" toReformat="false" toShortenFQNames="false">
     <context>
       <option name="HTML" value="true" />
-      <option name="XML_TEXT" value="true" />
       <option name="JSP" value="true" />
+      <option name="XML_TEXT" value="true" />
     </context>
   </template>
 </templateSet>
