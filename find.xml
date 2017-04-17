@@ -20,10 +20,21 @@
       <mask>*.js</mask>
       <mask>*.ts</mask>
       <mask>*.t</mask>
-      <mask>*.</mask>
-      <mask>*.le</mask>
-      <mask>*.les</mask>
       <mask>*.less</mask>
+      <mask>*.les</mask>
+      <mask>*.le</mask>
+      <mask>*.l</mask>
+      <mask>*.</mask>
+      <mask>*.fe</mask>
+      <mask>*.fea</mask>
+      <mask>*.featu</mask>
+      <mask>*.feature</mask>
+      <mask>*.s</mask>
+      <mask>*.st</mask>
+      <mask>*.ste</mask>
+      <mask>*.step</mask>
+      <mask>*.step.</mask>
+      <mask>*.step.js</mask>
     </recentFileMasks>
   </component>
 </application>
