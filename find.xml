@@ -23,10 +23,6 @@
       <mask>*.le</mask>
       <mask>*.l</mask>
       <mask>*.</mask>
-      <mask>*.fe</mask>
-      <mask>*.fea</mask>
-      <mask>*.featu</mask>
-      <mask>*.feature</mask>
       <mask>*.s</mask>
       <mask>*.st</mask>
       <mask>*.ste</mask>
@@ -38,6 +34,10 @@
       <mask>*.s.js</mask>
       <mask>*.spe.js</mask>
       <mask>*.spec.js</mask>
+      <mask>*.fe</mask>
+      <mask>*.fea</mask>
+      <mask>*.featu</mask>
+      <mask>*.feature</mask>
     </recentFileMasks>
   </component>
 </application>
