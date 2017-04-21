@@ -56,14 +56,13 @@
       </entry>
       <entry key="CommitDialog">
         <PlaceSettings>
-          <option name="SHOW_INDENT_LINES" value="true" />
           <option name="HIGHLIGHTING_LEVEL" value="SIMPLE" />
           <option name="READ_ONLY_LOCK" value="false" />
+          <option name="SHOW_INDENT_LINES" value="true" />
         </PlaceSettings>
       </entry>
       <entry key="Default">
         <PlaceSettings>
-          <option name="IGNORE_POLICY" value="IGNORE_WHITESPACES" />
           <option name="SHOW_LINE_NUMBERS" value="false" />
         </PlaceSettings>
       </entry>
