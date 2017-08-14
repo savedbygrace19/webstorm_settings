@@ -7,17 +7,12 @@
     <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.step.js" />
     <recentFileMasks>
-      <mask>*.spe.js</mask>
-      <mask>*.sp.js</mask>
-      <mask>*.st.js</mask>
-      <mask>*.ste.js</mask>
-      <mask>*.step.js</mask>
       <mask>*.l</mask>
       <mask>*.c</mask>
       <mask>*.css</mask>
       <mask>*.cs</mask>
-      <mask>*.s</mask>
       <mask>*.spe</mask>
       <mask>*.jsspec</mask>
       <mask>*.js.spec</mask>
@@ -34,10 +29,16 @@
       <mask>*.j</mask>
       <mask>*.ts</mask>
       <mask>*.t</mask>
-      <mask>*.</mask>
       <mask>*.le</mask>
       <mask>*.les</mask>
       <mask>*.less</mask>
+      <mask>0</mask>
+      <mask>*</mask>
+      <mask>*.</mask>
+      <mask>*.s</mask>
+      <mask>*.st</mask>
+      <mask>*.step</mask>
+      <mask>*.step.js</mask>
     </recentFileMasks>
   </component>
 </application>
