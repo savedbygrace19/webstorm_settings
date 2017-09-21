@@ -1,21 +1,14 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="All Places" />
-    <option name="defaultScopeName" value="All Places" />
+    <option name="customScope" value="Project Files" />
+    <option name="defaultScopeName" value="Project Files" />
     <option name="localRegularExpressions" value="true" />
     <option name="regularExpressions" value="true" />
     <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
-    <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.spec.js" />
+    <option name="SEARCH_SCOPE" value="Project Files" />
     <recentFileMasks>
-      <mask>*.js.spec</mask>
-      <mask>*.jspec</mask>
       <mask>*..spec</mask>
-      <mask>*.specjs</mask>
-      <mask>*.spejs</mask>
-      <mask>*.spjs</mask>
-      <mask>*.sjs</mask>
       <mask>*.ts</mask>
       <mask>*.t</mask>
       <mask>*.le</mask>
@@ -30,8 +23,6 @@
       <mask>*.htm</mask>
       <mask>*.html</mask>
       <mask>*</mask>
-      <mask>.js</mask>
-      <mask>*.js</mask>
       <mask>*.j</mask>
       <mask>*.</mask>
       <mask>*.s</mask>
@@ -39,6 +30,14 @@
       <mask>*.spec</mask>
       <mask>*.spec.</mask>
       <mask>*.spec.js</mask>
+      <mask>*.specjs</mask>
+      <mask>*.spejs</mask>
+      <mask>*.spjs</mask>
+      <mask>*.sjs</mask>
+      <mask>&amp;.js</mask>
+      <mask>%.js</mask>
+      <mask>.js</mask>
+      <mask>*.js</mask>
     </recentFileMasks>
   </component>
 </application>
