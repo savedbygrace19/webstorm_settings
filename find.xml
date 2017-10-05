@@ -8,7 +8,6 @@
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="Project Files" />
     <recentFileMasks>
-      <mask>*.spejs</mask>
       <mask>*.specjs</mask>
       <mask>*.spec.j</mask>
       <mask>*.sp</mask>
@@ -17,7 +16,6 @@
       <mask>*.les</mask>
       <mask>*.le</mask>
       <mask>*.l</mask>
-      <mask>*.</mask>
       <mask>*.spe</mask>
       <mask>*.spec</mask>
       <mask>*.spec.</mask>
@@ -27,17 +25,19 @@
       <mask>*.s.js</mask>
       <mask>*.st.js</mask>
       <mask>*.ste.js</mask>
-      <mask>*.fe</mask>
-      <mask>*.fea</mask>
-      <mask>*.featu</mask>
-      <mask>*.feature</mask>
-      <mask>*.f</mask>
       <mask>*.s</mask>
       <mask>*.st</mask>
       <mask>*.ste</mask>
       <mask>*.step</mask>
       <mask>*.step.</mask>
       <mask>*.step.js</mask>
+      <mask>*</mask>
+      <mask>*.</mask>
+      <mask>*.f</mask>
+      <mask>*.fe</mask>
+      <mask>*.fea</mask>
+      <mask>*.featu</mask>
+      <mask>*.feature</mask>
     </recentFileMasks>
   </component>
 </application>
