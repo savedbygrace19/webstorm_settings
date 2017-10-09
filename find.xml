@@ -7,9 +7,8 @@
     <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="Project Files" />
+    <option name="FILE_MASK" value="*.step.js" />
     <recentFileMasks>
-      <mask>*.spec.j</mask>
-      <mask>*.sp</mask>
       <mask>*.e</mask>
       <mask>*.less</mask>
       <mask>*.les</mask>
@@ -27,17 +26,19 @@
       <mask>*.ste.js</mask>
       <mask>*</mask>
       <mask>*.</mask>
+      <mask>*.fe</mask>
+      <mask>*.fea</mask>
+      <mask>*.featu</mask>
+      <mask>*.feature</mask>
       <mask>*.s</mask>
       <mask>*.st</mask>
       <mask>*.ste</mask>
       <mask>*.step</mask>
       <mask>*.step.</mask>
+      <mask>*.step.jks</mask>
+      <mask>*.step.jk</mask>
       <mask>*.step.j</mask>
       <mask>*.step.js</mask>
-      <mask>*.fe</mask>
-      <mask>*.fea</mask>
-      <mask>*.featu</mask>
-      <mask>*.feature</mask>
     </recentFileMasks>
   </component>
 </application>
