@@ -25,10 +25,7 @@
       <mask>*.ste.js</mask>
       <mask>*</mask>
       <mask>*.</mask>
-      <mask>*.fe</mask>
       <mask>*.fea</mask>
-      <mask>*.featu</mask>
-      <mask>*.feature</mask>
       <mask>*.s</mask>
       <mask>*.st</mask>
       <mask>*.ste</mask>
@@ -38,6 +35,9 @@
       <mask>*.step.jk</mask>
       <mask>*.step.j</mask>
       <mask>*.step.js</mask>
+      <mask>*.fe</mask>
+      <mask>*.featu</mask>
+      <mask>*.feature</mask>
     </recentFileMasks>
   </component>
 </application>
