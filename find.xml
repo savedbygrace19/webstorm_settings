@@ -3,39 +3,9 @@
     <option name="customScope" value="Project and Libraries" />
     <option name="defaultScopeName" value="Project and Libraries" />
     <option name="localRegularExpressions" value="true" />
+    <option name="regularExpressions" value="true" />
+    <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="Project and Libraries" />
-    <recentFileMasks>
-      <mask>*.st</mask>
-      <mask>*.ste</mask>
-      <mask>*.step</mask>
-      <mask>*.step.</mask>
-      <mask>*.step.jks</mask>
-      <mask>*.step.jk</mask>
-      <mask>*.step.j</mask>
-      <mask>*.step.js</mask>
-      <mask>*.fe</mask>
-      <mask>*.featu</mask>
-      <mask>*.feature</mask>
-      <mask>*.js</mask>
-      <mask>*.j</mask>
-      <mask>*.h</mask>
-      <mask>*.html</mask>
-      <mask>*.kless</mask>
-      <mask>*.kles</mask>
-      <mask>*.kle</mask>
-      <mask>*.kl</mask>
-      <mask>*.k</mask>
-      <mask>*.le</mask>
-      <mask>*.les</mask>
-      <mask>*.less</mask>
-      <mask>*</mask>
-      <mask>*.</mask>
-      <mask>*.s</mask>
-      <mask>*.spe</mask>
-      <mask>*.spec</mask>
-      <mask>*.spec.</mask>
-      <mask>*.spec.js</mask>
-    </recentFileMasks>
   </component>
 </application>
