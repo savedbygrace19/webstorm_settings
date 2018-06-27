@@ -17,8 +17,9 @@
     <mask>*.css</mask>
     <mask>*.mxml</mask>
     <mask>*.feature</mask>
-    <mask>*.spec.js</mask>
     <mask>!*.spec.js</mask>
     <mask>*.ts</mask>
+    <mask>*.spec.js</mask>
+    <mask>*.step.js</mask>
   </component>
 </application>
